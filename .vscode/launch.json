@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name":"Python: main integrated",
+            "type":"python",
+            "request":"launch",
+            "program":"C:/Users/Win/Documents/Git/Python/ProjectEstacio/main.py",
+            "console":"integratedTerminal",
+            "justMyCode":true,
+            "stopOnEntry": false,
+            "autoReload": {"enable": true}
+        },
+        {
+            "name":"Python: main",
+            "type":"python",
+            "request":"launch",
+            "program":"C:/Users/Win/Documents/Git/Python/ProjectEstacio/main.py",
+            "console":"internalConsole",
+            "justMyCode":true,
+            "stopOnEntry": false,
+            "autoReload": {"enable": true}
+        },
+        {
+            "name": "Python: Arquivo Atual",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true
+        }
+    ]
+}
