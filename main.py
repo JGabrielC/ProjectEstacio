@@ -126,6 +126,8 @@ shwSFrame2 = tkinter.Frame(shwFrame)
 shwSFrame2.grid(row=3, column=1,pady=10)
 shwSFbutton2 = tkinter.Button(shwSFrame, text='Deletar',command=lambda:[getchoosed(),deleteCad(sFRSpinbox),shwConsulta(shwSFrame,shwFrame,choosed,modelo=0)], width=10, bg='white')#,state='disabled')
 shwSFbutton2.grid(row=2, column=2, sticky='en', padx=10)
+
+
 '''shwSFEntry1 = tkinter.Entry(shwSFrame2, width=20, relief='solid' )#highlightthickness=2)
 shwSFEntry1.grid(row=0, column=1, sticky='se', padx=10)
 shwSFbutton4 = tkinter.Spinbox(shwSFrame2, values=('id', 'nome', 'matricula','senha' ),width=12)
